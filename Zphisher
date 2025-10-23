@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0; url=http://127.0.0.1:8080">
+    <title>Redirect ke Localhost</title>
+    <script>
+        window.location.href = "http://127.0.0.1:8080";
+    </script>
+</head>
+<body>
+    <div style="text-align: center; margin-top: 50px;">
+        <h2>Redirect ke http://127.0.0.1:8080</h2>
+        <p>Jika tidak otomatis redirect, silakan klik link di bawah ini:</p>
+        <a href="http://127.0.0.1:8080" style="font-size: 18px; color: blue;">Klik di sini untuk menuju http://127.0.0.1:8080</a>
+    </div>
+</body>
+</html>
